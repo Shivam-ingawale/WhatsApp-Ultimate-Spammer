@@ -134,4 +134,4 @@ if __name__ == '__main__':
     spam_random_emojis(name=contact_name, spam_number=spam_count)
 
     # Close Chrome browser
-    driver.quit()
+    # driver.quit()
