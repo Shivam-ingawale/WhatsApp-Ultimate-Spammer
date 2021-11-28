@@ -121,15 +121,17 @@ if __name__ == '__main__':
     time.sleep(5)
 
     contact_name = "Shivam Self"
+    message_string = "hello there!"
+    spam_count = 5
 
     # Spamming message
-    spam_message(message="hello", name=contact_name, spam_number=5)
+    spam_message(message=message_string, name=contact_name, spam_number=spam_count)
 
     # For spamming specific emoji
-    spam_specific_emoji(emoji_name="smile", name=contact_name, spam_number=5)
+    spam_specific_emoji(emoji_name="smile", name=contact_name, spam_number=spam_count)
 
     # For spamming random emoji
-    spam_random_emojis(name=contact_name, spam_number=15)
+    spam_random_emojis(name=contact_name, spam_number=spam_count)
 
     # Close Chrome browser
     driver.quit()
